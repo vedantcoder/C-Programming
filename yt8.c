@@ -90,4 +90,5 @@ Standard library functions (<string.h>)
     0 --> strings equal
     +ve --> first > second (ASCII)
     -ve --> first < second (ASCII)
+5. strtok
 */

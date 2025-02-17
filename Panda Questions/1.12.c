@@ -1,0 +1,1 @@
+//12.	Write a program to print value in Decimal, Octal, and Hexadecimal using printf.

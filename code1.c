@@ -2,13 +2,13 @@
 
 int main(void){
     double miles,
-            kms;
+          kms;
     
-    printf("Enter distance in miles> ");
+printf("Enter distance in miles> ");
     scanf("%lf", &miles);
 
-    kms = 1.609*miles;
-    printf("The distance is %f kilometers.\n", kms);
+   kms = 1.609*miles;
+  printf("The distance is %f kilometers.\n", kms);
 
-    return(0);
+return(0);
 }
