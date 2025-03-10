@@ -1,0 +1,1 @@
+//10.	Write a C program to display multiple variables.

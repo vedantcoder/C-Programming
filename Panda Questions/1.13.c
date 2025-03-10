@@ -1,0 +1,1 @@
+//13.	Write a C program that accepts a distance in inches and prints the corresponding value in cms

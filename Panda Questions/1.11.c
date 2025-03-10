@@ -1,0 +1,1 @@
+//11.	Write a program to display the following message by using multiple printf statement

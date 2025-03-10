@@ -7,12 +7,12 @@ int main(){
     scanf("%c", &c);
     switch (c)
     {
-    case 'm':
-        printf("Monday\n");
-        break;                          //similarly other days, too lazy to add them lol
-    default:
+        default:
         printf("Invalid Character\n");
         break;
+        case 'm':
+        printf("Monday\n");
+        break;                          //similarly other days, too lazy to add them lol
     }
     
     int age;                                        
