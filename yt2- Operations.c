@@ -37,14 +37,17 @@ int + float = float
 float + float = float
 
 Operator Precedence:-
-1. !
-2. * / %
-3. + -
-4. < <= >= >
-5. == !=
-6. &&
-7. ||
-8. =
+1.()
+2.++ -- (unary)
+3. - (unary)
+4. !
+5. * / %
+6. + -
+7. < <= >= >
+8. == !=
+9. &&
+10. ||
+11. =
 Left to right for same precedence!
 
 Control Instructions

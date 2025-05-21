@@ -43,13 +43,16 @@ int _square(int * n){
 POINTERS
 Pointers: A variable that stores the memory address of another variable!
 pointer(address of variable(value of variable))
-* = 'value at address' operator
+* = 'value at address' operator or 'dereferencing' operator
+    (Should not be confused with the * in the   pointer declaration)
 & = 'address of' operator
 
 SYNTAX
 datatype *pointer_variable;
 
 Size of any pointer in GCC is 4.
+
+When declaring a pointer, it is a good idea to always initialize it to NULL (a special pointer constant)
 
 While printing- 
 %p - printed in hexadecimal form

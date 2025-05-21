@@ -96,4 +96,13 @@ Exiting the loop
 
 CONTINUE
 Skip to next iteration
+
+GOTO
+A:
+<--statements-->
+B:
+<--statements-->
+goto A;
+goto B;
+--Usage Discouraged!!
 */

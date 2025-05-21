@@ -65,4 +65,42 @@ Multidimentional arrays
 2D Arrays-
 datatype array_name[][] = {{--values--},{--values--}}
 2D coordinate system is used.
+
+Searching : check if a number X is present in an array A or not ?
+- Array is Unsorted
+- Array is Sorted      
+
+Insertion : Add an element X into an array A at some index i.
+
+Deletion : remove an element X from an array A at some index i.
+
+1. Linear Search - when array is unsorted - check element by element
+2. Binary Search - Array must be sorted - check middle element
+//Binary Search
+
+#include <stdio.h>
+#include<math.h>
+
+int main()
+{
+    int arr[];
+    int lo=0, hi=n-1;
+    int X;
+    
+    while(lo<=hi){
+        int mid = (lo+hi)/2;
+        if(arr[mid]==X){
+            return mid;
+        }
+        else if(arr[mid]>X){
+            hi=mid-1;
+        }
+        else{
+            lo = mid+1;
+        }
+    }
+    
+    return 0;
+}
+    
 */
